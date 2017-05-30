@@ -3,7 +3,7 @@
     {
       "index": 0,
       "guid": "ebee55c4-d685-4d77-a2bb-650283fb8753",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 20,
       "eyeColor": "green",
       "name": "Cuong Nguyen",
@@ -15,7 +15,7 @@
     {
       "index": 1,
       "guid": "c54ac0fd-5288-45e3-afa4-fa30c84a6a68",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 24,
       "eyeColor": "blue",
       "name": "Coleen Kidd",
@@ -27,7 +27,7 @@
     {
       "index": 2,
       "guid": "d0a94124-efb7-4461-8d8d-f20466e7f9dd",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 26,
       "eyeColor": "brown",
       "name": "Luella Camacho",
@@ -39,7 +39,7 @@
     {
       "index": 3,
       "guid": "b1a82dc0-74ce-4a34-9bc2-0eb0434f8170",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 35,
       "eyeColor": "green",
       "name": "Avery Mckenzie",
@@ -51,7 +51,7 @@
     {
       "index": 4,
       "guid": "20889cdb-ba5d-4eae-a2e3-78347681d9fa",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 27,
       "eyeColor": "blue",
       "name": "Clements Mckee",
@@ -63,7 +63,7 @@
     {
       "index": 5,
       "guid": "1aa7bab5-026b-426d-ac11-fc34def982d7",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 28,
       "eyeColor": "brown",
       "name": "Mcdaniel Justice",
@@ -75,7 +75,7 @@
     {
       "index": 6,
       "guid": "655efe68-f26c-4f36-a2bd-cbf4d7929b77",
-      "picture": "http://placehold.it/32x32",
+      "picture": "http://placehold.it/64x64",
       "age": 36,
       "eyeColor": "green",
       "name": "Stone Watkins",
