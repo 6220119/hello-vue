@@ -17,11 +17,8 @@
 
 <!-- Logic of the component -->
 <script>
-  import Person from './Person';
-
   export default {
     name: 'people-list',
-    components: { Person },
     created() {
       this.$http.get('static/people.json').then((response) => {
         this.people = response.data.people || [];

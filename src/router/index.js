@@ -1,11 +1,10 @@
 import Vue from 'vue';
 import Router from 'vue-router';
-import PeopleList from '@/components/PeopleList';
-import Person from '@/components/Person';
 
 Vue.use(Router);
 
 export default new Router({
+  // mode: 'history',
   routes: [
     {
       path: '/',
@@ -14,12 +13,12 @@ export default new Router({
     {
       path: '/people/',
       name: 'PeopleList',
-      component: PeopleList,
+      component: () => import('../components/PeopleList.vue'),
     },
     {
       path: '/people/:id',
       name: 'Person',
-      component: Person,
+      component: () => import('../components/Person.vue'),
     },
   ],
 });
