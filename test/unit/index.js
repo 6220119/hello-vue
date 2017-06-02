@@ -1,6 +1,12 @@
 import Vue from 'vue';
+import VueRouter from 'vue-router';
+import axios from 'axios';
+import VueAxios from 'vue-axios';
 
 Vue.config.productionTip = false;
+Vue.use(VueAxios, axios);
+Vue.use(VueRouter);
+
 
 // require all test files (files that ends with .spec.js)
 const testsContext = require.context('./specs', true, /\.spec$/);

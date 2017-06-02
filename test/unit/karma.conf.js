@@ -14,9 +14,9 @@ module.exports = function (config) {
     browsers: ['PhantomJS'],
     frameworks: ['mocha', 'sinon-chai', 'phantomjs-shim'],
     reporters: ['spec', 'coverage'],
-    files: ['./index.js'],
+    files: ['./index.js', '../../node_modules/es6-promise/dist/es6-promise.auto.js'],
     preprocessors: {
-      './index.js': ['webpack', 'sourcemap']
+      './index.js': ['webpack', 'sourcemap'],
     },
     webpack: webpackConfig,
     webpackMiddleware: {
@@ -27,7 +27,7 @@ module.exports = function (config) {
       reporters: [
         { type: 'lcov', subdir: '.' },
         { type: 'text-summary' },
-      ]
+      ],
     },
   });
 };
